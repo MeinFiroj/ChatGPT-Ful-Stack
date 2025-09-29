@@ -18,7 +18,7 @@ A full-stack chatbot application built with **Node.js (backend)** and **React.js
 ```
 chatbot-app/
   ├── backend/        # Node.js backend
-  ├── frontend/       # Frontend (React/Next.js/Vue etc.)
+  ├── frontend/       # Frontend (React)
   └── README.md
 ```
 
@@ -30,7 +30,6 @@ chatbot-app/
 
    ```bash
    git clone https://github.com/your-username/chatbot-app.git
-   cd chatbot-app
    ```
 
 2. **Install dependencies**
@@ -54,22 +53,22 @@ chatbot-app/
 
      ```bash
      cd backend
-     npm start
+     npx nodemon server.js
      ```
    * Frontend
 
      ```bash
      cd frontend
-     npm start
+     npm run dev
      ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Backend**: Node.js, Express
-* **Frontend**: [React / Next.js / Vue]
-* **Other**: Socket.io / REST API / [your extras]
+* **Backend**: Node.js, Express, MongoDB, 
+* **Frontend**: [React, Redux toolkit]
+* **Other**: Socket.io, PineCone
 
 ---
 
@@ -78,7 +77,3 @@ chatbot-app/
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License.
