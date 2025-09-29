@@ -1,6 +1,6 @@
 # Chatbot App
 
-A full-stack chatbot application built with **Node.js (backend)** and **[Your Frontend Framework] (frontend)**.
+A full-stack chatbot application built with **Node.js (backend)** and **React.js (frontend)**.
 
 ---
 
